@@ -33,8 +33,8 @@ class CustomNetworkImage extends StatelessWidget {
       fit: fit,
       placeholder: (context, url) => Center(
         child: SizedBox(
-          width: width! * 0.4,
-          height: height! * 0.4,
+          width: 35,
+          height: 35,
           child: CircularProgressIndicator(
             strokeWidth: loadingIndicatorStrokeWidth,
             valueColor: AlwaysStoppedAnimation<Color>(loadingIndicatorColor!),

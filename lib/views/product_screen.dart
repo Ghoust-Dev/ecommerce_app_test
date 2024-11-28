@@ -108,6 +108,7 @@ class _ProductScreenState extends State<ProductScreen> {
                             itemBuilder: (BuildContext context, int index) {
                               activeImage = index;
                               return CustomNetworkImage(
+                                fit: BoxFit.fitHeight,
                                 imageUrl: product.images[index],
                               );
                             }),

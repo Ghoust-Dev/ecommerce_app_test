@@ -4,16 +4,16 @@ A new Flutter Ecommerce Application.
 
 ## Table of Contents
 
-1- Installation and Setup
-2- Technical and Architectural Choices
-3- Features and Functionalities
+1- Installation and Setup.
+2- Technical and Architectural Choices.
+3- Features and Functionalities.
 
 ## Installation and Setup
 ### Prerequisites
 - Ensure you have the following installed on your system:
-    - Flutter (for Flutter projects)
-    - Dart SDK (if not included with Flutter)
-    - IDE or Code Editor (VS Code, Android Studio)
+    - Flutter (for Flutter projects).
+    - Dart SDK (if not included with Flutter).
+    - IDE or Code Editor (VS Code, Android Studio).
 
 ### Clone the Repository
 git clone https://github.com/Ghoust-Dev/ecommerce_app_test.git

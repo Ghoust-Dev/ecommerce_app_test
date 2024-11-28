@@ -6,34 +6,26 @@ A new Flutter Ecommerce Application.
 
 ## Table of Contents
 
-1- Installation and Setup.
+1- *Installation and Setup*.
 
-2- Technical and Architectural Choices.
+2- *Technical and Architectural Choices*.
 
-3- Features and Functionalities.
-
-
-
+3- *Features and Functionalities*.
+<br><br><br>
 ## Installation and Setup
 ### Prerequisites
 - Ensure you have the following installed on your system:
     - Flutter (for Flutter projects).
     - Dart SDK (if not included with Flutter).
     - IDE or Code Editor (VS Code, Android Studio).
-
-
-
+<br><br><br>
 ### Clone the Repository
 - git clone https://github.com/Ghoust-Dev/ecommerce_app_test.git.
 - cd ecommerce_app_test
-
-
-
+<br><br><br>
 ### Install Dependencies
 flutter pub get
-
-
-
+<br><br><br>
 ## Technical and Architectural Choices
 ### Technology Stack
 - Frontend: Flutter and Dart.
@@ -49,9 +41,7 @@ flutter pub get
 2- **State Management: GetX**:
     
 - Reason: Lightweight, reactive, and simplifies dependency injection and route management.
-
-
-
+<br><br><br>
 ## Features and Functionalities
 ### Features
 1- **Product Management**:
@@ -86,9 +76,7 @@ flutter pub get
 7- **Network Image Caching**:
     
 - Images are fetched from a network and cached locally to improve performance.
-
-
-
+<br><br><br>
 ### Screens Overview
 1- **Home Screen**:
     
@@ -111,5 +99,4 @@ flutter pub get
 5- **Checkout Screen**:
     
 - Allows user to submit cart data to a mock API.
-
-
+<br> <br> <br> <br> 

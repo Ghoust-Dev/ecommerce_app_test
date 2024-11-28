@@ -16,8 +16,8 @@ A new Flutter Ecommerce Application.
     - IDE or Code Editor (VS Code, Android Studio)
 
 ### Clone the Repository
-git clone https://github.com/your-repo/project-name.git
-cd project-name
+git clone https://github.com/Ghoust-Dev/ecommerce_app_test.git
+cd ecommerce_app_test
 
 
 ### Install Dependencies
@@ -25,14 +25,15 @@ flutter pub get
 
 ## Technical and Architectural Choices
 ### Technology Stack
-- Frontend: Flutter and Dart
-- State Management: GetX (for reactive state management and navigation)
-- Backend: REST API from https://dummyjson.com/products
+- Frontend: Flutter and Dart.
+- State Management: GetX (for reactive state management and navigation).
+- Backend: REST API from https://dummyjson.com/products.
 
 ### Architectural Decisions
 1- **MVC Pattern**:
     - Model-View-Controller architecture was chosen for clear separation of concerns.
     - Reason: Simplifies codebase management and enhances scalability.
+
 2- **State Management: GetX**:
     - Reason: Lightweight, reactive, and simplifies dependency injection and route management.
 
@@ -59,7 +60,7 @@ flutter pub get
     - Fully functional on mobile.
 
 6- **Bottom Navigation**:
-    - Navigate to Home and Cart Screens
+    - Navigate to Home and Cart Screens.
 
 7. **Network Image Caching**:
     - Images are fetched from a network and cached locally to improve performance.

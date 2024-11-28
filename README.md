@@ -16,8 +16,8 @@ A new Flutter Ecommerce Application.
     - IDE or Code Editor (VS Code, Android Studio).
 
 ### Clone the Repository
-git clone https://github.com/Ghoust-Dev/ecommerce_app_test.git
-cd ecommerce_app_test
+- git clone https://github.com/Ghoust-Dev/ecommerce_app_test.git.
+- cd ecommerce_app_test
 
 
 ### Install Dependencies

@@ -5,7 +5,9 @@ A new Flutter Ecommerce Application.
 ## Table of Contents
 
 1- Installation and Setup.
+
 2- Technical and Architectural Choices.
+
 3- Features and Functionalities.
 
 ## Installation and Setup
@@ -31,8 +33,9 @@ flutter pub get
 
 ### Architectural Decisions
 1- **MVC Pattern**:
-    - Model-View-Controller architecture was chosen for clear separation of concerns.
-    - Reason: Simplifies codebase management and enhances scalability.
+    
+- Model-View-Controller architecture was chosen for clear separation of concerns.
+- Reason: Simplifies codebase management and enhances scalability.
 
 2- **State Management: GetX**:
     - Reason: Lightweight, reactive, and simplifies dependency injection and route management.
@@ -62,7 +65,7 @@ flutter pub get
 6- **Bottom Navigation**:
     - Navigate to Home and Cart Screens.
 
-7. **Network Image Caching**:
+7- **Network Image Caching**:
     - Images are fetched from a network and cached locally to improve performance.
 
 ### Screens Overview

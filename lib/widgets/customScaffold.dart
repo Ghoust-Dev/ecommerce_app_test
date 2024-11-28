@@ -60,15 +60,20 @@ class _CustomScaffoldState extends State<CustomScaffold> {
                 FocusScope.of(context).unfocus();
                 Get.back();
               },
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              child: Container(
+                margin: const EdgeInsets.symmetric(horizontal: 25.0),
+                padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 2.0),
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade100,
+                  borderRadius: BorderRadius.circular(20.sp)
+                ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Icon(Icons.home, color: Get.currentRoute == "/HomeScreen" ? primaryColor : Colors.grey, size: 26.sp,),
-                    Text("Home", style: TextStyle(color: Get.currentRoute == "/HomeScreen" ? primaryColor : Colors.grey, fontWeight: FontWeight.w500, fontSize: 10.sp),)
+                    Icon(Icons.home, color: Get.currentRoute == "/HomeScreen" ? primaryColor : Colors.grey, size: Get.currentRoute == "/HomeScreen" ? 36.sp : 26.sp,),
+                    Text("Home", style: TextStyle(color: Get.currentRoute == "/HomeScreen" ? primaryColor : Colors.grey, fontWeight: FontWeight.w500, fontSize: Get.currentRoute == "/HomeScreen" ? 15.sp : 12.sp),)
                   ],
                 ),
               ),
@@ -83,15 +88,20 @@ class _CustomScaffoldState extends State<CustomScaffold> {
               child: Stack(
                 clipBehavior: Clip.none,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                  Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 25.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 2.0),
+                    decoration: BoxDecoration(
+                        color: Colors.grey.shade100,
+                        borderRadius: BorderRadius.circular(20.sp)
+                    ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Icon(Icons.shopping_basket, color: Get.currentRoute == "/CartScreen" ? primaryColor : Colors.grey, size: 26.sp,),
-                        Text("Cart", style: TextStyle(color: Get.currentRoute == "/CartScreen" ? primaryColor : Colors.grey, fontWeight: FontWeight.w500, fontSize: 10.sp),)
+                        Icon(Icons.shopping_basket, color: Get.currentRoute == "/CartScreen" ? primaryColor : Colors.grey, size: Get.currentRoute == "/CartScreen" ? 36.sp : 28.sp,),
+                        Text("Cart", style: TextStyle(color: Get.currentRoute == "/CartScreen" ? primaryColor : Colors.grey, fontWeight: FontWeight.w500, fontSize: Get.currentRoute == "/CartScreen" ? 15.sp : 12.sp),)
                       ],
                     ),
                   ),
